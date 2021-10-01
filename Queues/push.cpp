@@ -1,13 +1,13 @@
 /*
 ** QUEUES
-** FIFO -> First input, first output
+** FIFO -> First in, first out.
 ** 1. Crear espacio en memoria para almacenar un Nodo.
-** 2. Asignar ese nuevo Nodo al dato que queremos insertar.
-** 3. Si no hay ningun Nodo creado entonces el principio y el fin apuntan
-**    al nuevo Nodo
-    ->Si no entonces:
-    ... El último tiene que apuntar al nuevo Nodo. Luego, el nuevo nodo
-    ... apunta a nullptr y, por último el nuevo Nodo se convierte en el Nodo final
+** 2. Asignarle al nuevo Node el dato que queremos insertar.
+** 3. Si no hay ningun Nodo creado entonces el principio y el fin apuntan al nuevo Nodo.
+** -> Si no entonces:
+** ...El último tiene que apuntar al nuevo Nodo.
+** ...Luego, el nuevo nodo apunta a nullptr.
+** ...Por último, el nuevo Nodo se convierte en el Nodo final.
 ** 
 */
 
